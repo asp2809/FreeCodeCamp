@@ -1,0 +1,45 @@
+body {
+	box-sizing: border-box;
+	font-family: Lobster;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	background: #5C258D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+	font-family: Pacifico, Arial;
+	height: 70px;
+	letter-spacing: 2px;
+	font-size: 250%;
+	line-height: 70px;
+	margin-bottom: 40px;
+	color: #ff99ff;
+}
+.quote {
+	margin: 30px auto;
+	width: 85%;
+	background: #ffe6b3;
+	text-align: center;
+	height: 75px;
+	color: #003300;
+	line-height: 70px;
+	border: 2px solid #99ff99;
+	border-radius: 10px;
+
+}
+#line {
+	font-size: 30px;
+	color: #ccffcc;
+	margin-bottom: 20px;
+}
+#sharing {
+	font-size: 25px;	
+	color: #ffcccc;
+}
+button {
+	margin: 10px auto;
+	letter-spacing: 1px;
+	font-size: 30px;
+}

@@ -1,0 +1,35 @@
+body {
+	color: white;
+	background-position: center;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300;
+	font-family: Lobster;
+}
+.jumbotron {
+	text-align: center;
+	color: black;
+	opacity: 0.7;
+}
+.haze {
+	background-image: url("hazebg.jpg");
+}
+.cold {
+	background-image: url("cold.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.hot {
+	background-image: url("superhot.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.change {
+	color: black;
+	float: left;
+}
+.btn-primary {
+	font-size: 20px;
+}
