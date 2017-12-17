@@ -1,0 +1,43 @@
+body {
+    background-image: url("Wikipedia.jpg");
+    background-size: 100%;
+}
+.heading {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: #000;
+}
+.container {
+    margin: 3% 5% 3% 5%;    
+    width: 1370px;
+    padding: 0 5% 0 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+hr.style5 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+.form-group {
+    padding-left: 17%;
+}
+.form-control {
+    width: 70%;    
+}
+.search1 {
+    border: 2px solid #996633;
+    border-radius: 20px;
+    float: left;
+}
+.results {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+.btn {
+    margin-left: 20px;
+}
+.searchbtn {
+    border-radius: 20px;
+}
