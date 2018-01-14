@@ -1,0 +1,60 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width:100%;
+}
+head {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 23px;
+    background-image: url("twitch.jpg");
+    background-size: 100%;
+    color: black;
+    font-family: 'Crete Round';
+    margin: 0;
+}
+
+.bg {
+    background: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    height: 100%;    
+}
+.container {
+    margin: 2% auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 92%;
+    width: 40%;
+    border-radius: 20px;
+}
+img {
+    width: 40px;
+    height: auto;
+}
+ul {
+    margin: 20px auto 0 auto;
+}
+li {
+    padding: 3px 0 3px 0;
+    margin: 10px auto;
+    border: 2px solid #ff0066;
+    border-radius: 20px;
+}
+.heading {
+    font-family: 'Risque';
+    text-align: center;
+    font-size: 50px;
+}
+button {
+    font-family: 'Berkshire Swash';
+    margin: 5px;
+}
+li:hover {
+    background: #ff9999;
+
+}
+img {
+    border-radius: 100%;
+}
