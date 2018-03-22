@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Electronic Calculator</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="Jscal.css">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
+
+    </head>
+    <body>
+        <div class="calformat">
+            <table class="cal">
+                <tr>
+                    <label>Electronic Calculator</label>            
+                    <textarea class="io"></textarea>
+                </tr>
+                <tr>
+                    <td><button class="ac btn btn-lg btn-danger">AC</button></td>
+                    <td><button id="back" class="btn btn-lg btn-danger"><i class="fas fa-arrow-left"></i></button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn1 btn btn-lg btn-dark">7</button></td>
+                    <td><button class="btn1 btn btn-lg btn-dark">8</button></td>
+                    <td><button class="btn1 btn btn-lg btn-dark">9</button></td>
+                    <td><button class="btn1 btn btn-lg btn-warning">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn1 btn btn-lg btn-dark">4</button></td>
+                    <td><button class="btn1 btn btn-lg btn-dark">5</button></td>
+                    <td><button class="btn1 btn btn-lg btn-dark">6</button></td>
+                    <td><button class="btn1 btn btn-lg btn-warning">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn1 btn btn-lg btn-dark">1</button></td>
+                    <td><button class="btn1 btn btn-lg btn-dark">2</button></td>
+                    <td><button class="btn1 btn btn-lg btn-dark">3</button></td>
+                    <td><button class="btn1 btn btn-lg btn-warning">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn1 btn btn-lg btn-dark">0</button></td>
+                    <td><button class="btn1 btn btn-lg btn-dark">.</button></td>
+                    <td><button id="bequal" class="btn btn-lg btn-dark">=</button></td>
+                    <td><button class="btn1 btn btn-lg btn-warning">/</button></td>
+                </tr>
+            </table>
+        </div>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+        <script
+			  src="https://code.jquery.com/jquery-3.2.1.js"
+			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+              crossorigin="anonymous">
+        </script>
+        <script type="text/javascript" src="Jscal.js"></script>
+    </body>
+</html>
