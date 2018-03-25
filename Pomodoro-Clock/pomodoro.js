@@ -58,6 +58,8 @@ $(".play").on("click", function() {
     }
 });
 
+let t=0; //0 for work and 1 for break
+
 setInterval(function () {
     if(flag===1)
     {
@@ -68,7 +70,16 @@ setInterval(function () {
         }
         else if(timermin===0 && timersec === 0)
         {
-            timermin=break1-1;
+            if(t===0)
+            {
+                timermin=break1-1;
+                t=1;
+            }    
+            else if(t===1)
+            {
+                timermin=timer-1;
+                t=0;
+            } 
             timersec=60;
         }
         timersec--;
