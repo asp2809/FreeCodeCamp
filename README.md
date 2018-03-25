@@ -12,11 +12,14 @@ This repository consists of all the FreeCodeCamp Ziplines which are successfully
     * Every button press invokes a function which adds the value of the button to the string which is finally evaluated when the = button is pressed.
     * Another thing that is taken care of here is that when the = button is pressed, if the number of operands are greater than the number of operators, then only the string is evaluated otherwise "Error" is shown.
 
+* Pomodoro Clock Timer is a timer for distribution of breaks between study. In this mini-project, setInterval is used and the timer is put to 1 sec which changes the value of variables which contain the timer minutes and seconds. Using the setInterval, a function is executed which decreases the value of variable timersec by 1 if the variable timersec is not previously 0, and if the variable timersec is zero, then the value of timermin is decreased by 1 and the value of timersec is restored to 59 and this goes on further every second. When the value of both  timermin and timersec is 0, the timer for break starts, and when the timer for the break ends, timer for study starts the same way.
+
 * Here are the Codepen links for the projects:
   * Random Quote Machine - https://codepen.io/noble2809/pen/ZJmKGX
   * Weather App - https://codepen.io/noble2809/pen/YrZjqX
   * Wikipedia Viewer - https://codepen.io/noble2809/pen/RLYgzW
   * Twitch TV - https://codepen.io/noble2809/pen/VyBLyM
   * JavaScript Calculator - https://codepen.io/noble2809/pen/QmgyRg
+  * Pomodoro Clock - https://codepen.io/noble2809/pen/LdjKOZ
   
   
