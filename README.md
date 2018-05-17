@@ -16,7 +16,10 @@ This repository consists of all the FreeCodeCamp Ziplines which are successfully
 
 * **Tic-Tac-Toe** is a game that we all used to play during our childhood and it has been an integral part of the same. So, this is the mini-project for the javascript coded version of the game which lets you first choose whether you will be playing with X or O and then by default starts with Vs. Player mode which can be changed to Vs. Computer mode if needed. For this one, an array of buttons are created which is used as a matrix to manipulate the values by which it is computed which is the winner - X or O.
 
-* Here are the Codepen links for the projects:
+* **Simon Game** is a classic childhood memory game in which we have to remember a pattern of the colours to win the game. So, this is the last one in the Advanced Front End Development Projects of Freecodecamp which requires using of all the previously built concepts at the same time. I used an array here to store both, the pattern entered by the user and the pattern generated randomly by the program.
+At each of the button presses, both the arrays are compared and user is informed if (s)he inputs it wrong otherwise it goes on until user gets to twenty correct button presses which makes him/her win the game.
+
+## Codepen Links:
   * Random Quote Machine - https://codepen.io/noble2809/full/ZJmKGX
   * Weather App - https://codepen.io/noble2809/full/YrZjqX
   * Wikipedia Viewer - https://codepen.io/noble2809/full/RLYgzW
@@ -24,5 +27,5 @@ This repository consists of all the FreeCodeCamp Ziplines which are successfully
   * JavaScript Calculator - https://codepen.io/noble2809/full/QmgyRg
   * Pomodoro Clock - https://codepen.io/noble2809/full/LdjKOZ
   * Tic-Tac-Toe - https://codepen.io/noble2809/full/OZjYwE/
-  
+  * Simon Game = https://codepen.io/noble2809/full/ELOjLY/
   
