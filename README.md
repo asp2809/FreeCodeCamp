@@ -29,3 +29,5 @@ At each of the button presses, both the arrays are compared and user is informed
   * Tic-Tac-Toe - https://codepen.io/noble2809/full/OZjYwE/
   * Simon Game = https://codepen.io/noble2809/full/ELOjLY/
   
+### Front End Certification
+Here is the link to my Certificate: https://www.freecodecamp.org/certification/asp2809/legacy-front-end
